@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  BULE
 //
-//  Created by Evolution on 4/21/22.
+//  Created by Charlie Walton on 4/21/22.
 //
 
 import UIKit
