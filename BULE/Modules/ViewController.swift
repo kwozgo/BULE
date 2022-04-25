@@ -26,19 +26,24 @@ final class ViewController: UIViewController {
     
     @IBAction private func hitMePressed() {
         let difference: Int = abs(self.currentValue - self.targetValue)
-        let points = 100 - difference
-        self.score += points
+        var points = 100 - difference
         
         let title: String
         if difference == 0 {
             title = "Perfect!"
+            points += 100
         } else if difference < 5 {
             title = "You almost had it!"
+            if difference == 1 {
+                points += 50
+            }
         } else if difference < 10 {
             title = "Petty good!"
         } else {
             title = "Not even close..."
         }
+        
+        self.score += points
         
         let message = "You scored \(points) points"
         let alert = UIAlertController(
