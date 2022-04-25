@@ -21,10 +21,7 @@ final class ViewController: UIViewController {
     }
     
     @IBAction private func hitMePressed() {
-        var difference: Int = self.currentValue - self.targetValue
-        if difference < 0 {
-            difference *= -1
-        }
+        let difference: Int = abs(self.currentValue - self.targetValue)
         
         let message = "The value of the slider is \(self.currentValue)"
                         + "\nThe target value is \(self.targetValue)"
