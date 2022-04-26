@@ -65,6 +65,12 @@ final class ViewController: UIViewController {
         self.currentValue = lroundf(slider.value)
     }
     
+    @IBAction private func startOverPressed() {
+        self.round = .zero
+        self.score = .zero
+        self.startRound()
+    }
+    
     private func startRound() {
         self.round += 1
         self.targetValue = .random(in: 1...100)
