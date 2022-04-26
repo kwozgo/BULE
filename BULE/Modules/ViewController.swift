@@ -54,10 +54,11 @@ final class ViewController: UIViewController {
         let action = UIAlertAction(
             title: "Okay",
             style: .default
-        )
+        ) { [weak self] _ in
+            self?.startRound()
+        }
         alert.addAction(action)
         self.present(alert, animated: true)
-        self.startRound()
     }
     
     @IBAction private func sliderMoved(_ slider: UISlider) {
