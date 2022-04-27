@@ -22,22 +22,22 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let thumbImageNormal = UIImage(named: "SliderThumb")!
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
         self.slider.setThumbImage(thumbImageNormal, for: .normal)
         
-        let thumbImageHighlighted = UIImage(named: "SliderThumb")!
+        let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")!
         self.slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
         
         let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
-        /*
-        let trackLeftImage = UIImage(named: "")!
+        
+        let trackLeftImage = UIImage(named: "SliderTrackLeft")!
         let trackLeftResizable = trackLeftImage.resizableImage(withCapInsets: insets)
         self.slider.setMinimumTrackImage(trackLeftResizable, for: .normal)
         
-        let trackRightImage = UIImage(named: "")!
+        let trackRightImage = UIImage(named: "SliderTrackRight")!
         let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
         self.slider.setMaximumTrackImage(trackRightResizable, for: .normal)
-        */
+        
         self.startRound()
     }
     
