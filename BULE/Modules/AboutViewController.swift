@@ -15,6 +15,9 @@ class AboutViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func closePressed() {
+        self.dismiss(animated: true)
+    }
 
     /*
     // MARK: - Navigation
