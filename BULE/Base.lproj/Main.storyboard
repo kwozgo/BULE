@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BULE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="qnX-Hz-adv" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Put the Bull's Eye as close as you can to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYz-dy-cLS">
                                 <rect key="frame" x="161" y="47" width="313" height="20"/>
@@ -159,11 +159,11 @@
             <objects>
                 <viewController id="K5B-ZE-vOS" customClass="AboutViewController" customModule="BULE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rge-Yg-Hwe">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="8U7-GX-1Jz">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2F-tj-WNK">
                                 <rect key="frame" x="269" y="289" width="110" height="56"/>
@@ -202,10 +202,10 @@
                         <viewLayoutGuide key="safeArea" id="LcK-zJ-Wpb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="LcK-zJ-Wpb" firstAttribute="trailing" secondItem="8U7-GX-1Jz" secondAttribute="trailing" id="53k-E2-fvQ"/>
-                            <constraint firstItem="LcK-zJ-Wpb" firstAttribute="bottom" secondItem="8U7-GX-1Jz" secondAttribute="bottom" id="boK-ql-vN4"/>
-                            <constraint firstItem="8U7-GX-1Jz" firstAttribute="leading" secondItem="LcK-zJ-Wpb" secondAttribute="leading" id="czi-uO-VH1"/>
-                            <constraint firstItem="8U7-GX-1Jz" firstAttribute="top" secondItem="LcK-zJ-Wpb" secondAttribute="top" id="dBa-6Y-2vh"/>
+                            <constraint firstAttribute="trailing" secondItem="8U7-GX-1Jz" secondAttribute="trailing" id="53k-E2-fvQ"/>
+                            <constraint firstAttribute="bottom" secondItem="8U7-GX-1Jz" secondAttribute="bottom" id="boK-ql-vN4"/>
+                            <constraint firstItem="8U7-GX-1Jz" firstAttribute="leading" secondItem="Rge-Yg-Hwe" secondAttribute="leading" id="czi-uO-VH1"/>
+                            <constraint firstItem="8U7-GX-1Jz" firstAttribute="top" secondItem="Rge-Yg-Hwe" secondAttribute="top" id="dBa-6Y-2vh"/>
                         </constraints>
                     </view>
                     <connections>
