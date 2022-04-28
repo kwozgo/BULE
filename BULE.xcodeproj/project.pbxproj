@@ -60,7 +60,6 @@
 		0393DC812811E3CA0068D32E /* BULE */ = {
 			isa = PBXGroup;
 			children = (
-				034C20422819EA8400CCF744 /* BullsEye.html */,
 				0393DC9A2811E6CA0068D32E /* Modules */,
 				0393DC992811E6BC0068D32E /* Resources */,
 				0393DC982811E6B20068D32E /* Settings */,
@@ -83,6 +82,7 @@
 		0393DC992811E6BC0068D32E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				034C20422819EA8400CCF744 /* BullsEye.html */,
 				0393DC8B2811E3CF0068D32E /* Assets.xcassets */,
 			);
 			path = Resources;
